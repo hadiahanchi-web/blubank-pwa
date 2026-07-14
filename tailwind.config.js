@@ -18,6 +18,7 @@ export default {
       },
       fontFamily: {
         sans: [
+          'IRANYekanMobile',
           'Vazirmatn',
           'Tahoma',
           'system-ui',

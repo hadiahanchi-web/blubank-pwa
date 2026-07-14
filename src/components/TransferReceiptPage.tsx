@@ -87,7 +87,7 @@ export default function TransferReceiptPage({ dest, amount, onBack }: Props) {
             ['زمان', date],
             ['انتقال دهنده', 'علی آهنچیان'],
             ['روش انتقال', 'بلو به بلو'],
-            ['سپرده مبدا', 'IR ۴۹ ۰۵۶۰ ۶۱۱۸ ۲۸۰۰ ۵۵２۶ ۳۶۷۸ ۰۱'],
+            ['سپرده مبدا', 'IR ۴۹ ۰۵۶۰ ۶۱۱۸ ۲۸۰۰ ۵۵۲۶ ۳۶۷۸ ۰۱'],
             ['شماره سند', docNum],
           ].map(([label, value], i) => (
             <div key={i} className={`flex justify-between items-center py-2.5 ${i < 4 ? 'border-b border-[#F1F4F8]' : ''}`}>
@@ -110,11 +110,11 @@ export default function TransferReceiptPage({ dest, amount, onBack }: Props) {
 
         {/* دکمه‌های پایینی */}
         <div className="flex gap-[12px] w-full pt-2 shrink-0">
-          <button className="flex-1 h-[85px] bg-[#F0F5FC] text-primary border-none rounded-xl text-[18px] font-medium flex flex-col items-center justify-center gap-1.5 cursor-pointer">
+          <button className="flex-1 h-[85px] bg-[#F0F5FC] text-primary border-none rounded-xl text-[16px] font-medium flex flex-col items-center justify-center gap-1.5 cursor-pointer">
             <IconShare size={20} />
             <span>اشتراک‌گذاری</span>
           </button>
-          <button className="flex-1 h-[85px] bg-[#F0F5FC] text-primary border-none rounded-xl text-[18px] font-medium flex flex-col items-center justify-center gap-1.5 cursor-pointer">
+          <button className="flex-1 h-[85px] bg-[#F0F5FC] text-primary border-none rounded-xl text-[16px] font-medium flex flex-col items-center justify-center gap-1.5 cursor-pointer">
             <IconDownload size={20} />
             <span>ذخیره در گالری</span>
           </button>
