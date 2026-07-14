@@ -26,7 +26,7 @@ export default function TransactionList({ transactions }: Props) {
       </div>
 
       <div className="px-5">
-        {transactions.map((tx, i) => {
+        {transactions.map((tx) => {
           const Icon = transactionIconMap[tx.iconKey]
           return (
             <div

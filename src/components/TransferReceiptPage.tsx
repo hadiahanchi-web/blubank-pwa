@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import { IconBack, IconHelp, IconShare, IconDownload } from './Icons'
 
 const avatar = 'SC.webp'
-const blu = 'Hb.webp'
 const fa = (s: string) => s.replace(/\d/g, d => '۰۱۲۳۴۵۶۷۸۹'[+d])
 const faComma = (s: string) => fa(s.replace(/\B(?=(\d{3})+(?!\d))/g, ','))
 

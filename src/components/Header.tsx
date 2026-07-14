@@ -1,4 +1,4 @@
-import { IconHelp, IconBell, IconScan, IconSearch, IconDropdown, IconEye, IconReport, IconPulse, IconPlusFilled } from './Icons'
+import { IconHelp, IconBell, IconSearch, IconDropdown, IconEye, IconReport, IconPulse, IconPlusFilled } from './Icons'
 
 export default function Header() {
   return (
