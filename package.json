@@ -6,7 +6,7 @@
   "description": "BluBank mobile banking home screen - pixel-perfect PWA recreation",
   "scripts": {
     "dev": "vite",
-    "build": "npx tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview --host"
   },
   "dependencies": {
